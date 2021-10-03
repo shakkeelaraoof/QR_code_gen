@@ -7,8 +7,8 @@ qr = qrcode.QRCode(version=1,
                     border=2)
 
 
-qr.add_data("https://afeefalishan.github.io/Greenmark-site/index.html")
+qr.add_data("https://github.com/AFEEFALISHAN")
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="#FF5200", back_color="white")
-img.save("QRColor.png")
+img = qr.make_image(fill_color="#00FF00", back_color="7FFD4")
+img.save("Dramatic.png")
